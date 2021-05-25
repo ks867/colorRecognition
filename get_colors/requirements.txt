@@ -1,7 +1,8 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
 numpy==1.18.5
 scikit-image==0.17.2
 scipy==1.5.2
-pytorch
+torch==0.4.1.post2
 torchvision==0.2.1
 pillow==7.2.0
 
