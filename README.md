@@ -16,8 +16,9 @@ You can add an optional `-s` flag at the end if you’d like to save the interme
 
 `python extract_colors.py -s`
 
-The -s option is only functional if there are 50 or less photos in the `input_photos` directory. Inputs of greater than 50 photos are processed in batches, so intermediary files are automatically deleted.
-The intermediary files can be found in the folder `get_photos/U-2-Net/test_data`. Please reference the Spring 2021 report for further documentation on the contents of these folders and the overall color recognition algorithm. 
+The -s option is only functional if there are 50 or less photos in the `input_photos` directory. Inputs of greater than 50 photos are processed in batches, so intermediate files are automatically deleted.
+
+If you use this option, the intermediate files can be found in the folder `get_photos/U-2-Net/test_data`. Please reference the Spring 2021 report for further documentation on the contents of these folders and the overall color recognition algorithm. 
 
 ## Credits
 Part of this code is taken from https://github.com/xuebinqin/U-2-Net 
